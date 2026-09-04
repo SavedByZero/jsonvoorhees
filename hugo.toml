@@ -5,29 +5,31 @@ theme = 'PaperMod'
 enableRobotsTXT = true
 
 [params]
+  mainSections = ["posts"]
   ShowReadingTime = true
   ShowCodeCopyButtons = true
   ShowToc = true
   TocOpen = false
-  mainSections = ["posts"]
 
 [params.homeInfoParams]
   Title = 'JSON_Voorhees'
   Content = 'Red Teaming Blog of JSON_Voorhees'
 
+[markup.highlight]
+  noClasses = false
+  lineNos = true
+
 [[menu.main]]
   name = 'Posts'
   url = '/posts/'
   weight = 10
+
 [[menu.main]]
   name = 'About'
   url = '/about/'
   weight = 20
+
 [[menu.main]]
   name = 'Disclosure'
   url = '/disclosure/'
   weight = 30
-
-[markup.highlight]
-  noClasses = false
-  lineNos = true
