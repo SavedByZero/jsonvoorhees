@@ -12,7 +12,7 @@ enableRobotsTXT = true
   TocOpen = false
 
 [params.homeInfoParams]
-  Title = 'JSON_Voorhees'
+  Title = 'I Can't Help With That'
   Content = 'Red Teaming Blog of JSON_Voorhees'
 
 [markup.highlight]
